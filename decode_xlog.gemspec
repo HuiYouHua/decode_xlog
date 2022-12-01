@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Write a short summary, because RubyGems requires one."
   spec.description = "Write a longer description or delete this line."
-  spec.homepage = "https://github.com/decode_xlog"
+  spec.homepage = "https://github.com/HuiYouHua/decode_xlog"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
