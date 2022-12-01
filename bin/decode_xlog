@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'decode_xlog'
+
+
+# 参数传入需要解码的 xlog文件路径
+DecodeXlog::Decode.decode(ARGV[0])
+
+# DecodeXlog::Decode.decode('/Users/meme/Downloads/log_20220608.xlog')
+
+
+# bundle install
+# 终端执行 bundle exec decode_xlog /Users/meme/Downloads/log_20220608.xlog"
