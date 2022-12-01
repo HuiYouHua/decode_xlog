@@ -26,4 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "uri"
   spec.add_development_dependency "net-http"
+  spec.add_development_dependency "httparty"
+  # spec.add_development_dependency "restclient"
 end
